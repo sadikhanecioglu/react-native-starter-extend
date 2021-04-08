@@ -132,6 +132,9 @@ android {
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
+        manifestPlaceholders = [
+            appAuthRedirectScheme: 'com.react-native-starter-extend'
+        ]        
     }
     dexOptions {
         javaMaxHeapSize "4g"
